@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f6f8f9;
+}
+
+header {
+    height: 60px;
+    background-color: white;
+}
+
+#cont-header {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#logo {
+    font-size: 30px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #031732;
+}
+
+#cont-main {
+    width: 70%;
+    margin: auto;
+    background-color: white;
+    margin-top: 40px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 40px;
+
+}
+
+#button {
+    padding: 20px 60px 20px 60px;
+    border-bottom: 3px solid #f6f8f9;
+}
+
+#add-task {
+    background-color: #47adf1;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    display: inline-block;
+    border: 2px solid #47adf1;
+}
+
+
+#add-section {
+    display: inline-block;
+    background-color: white;
+    color: lightgray;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid lightgray;
+}
+
+#cont {
+    padding: 40px 60px 0px;
+
+}
+
+.cross {
+    color: red;
+    font-size: 18px;
+}
+
+
+.title-section {
+    font-weight: bold;
+    color: #444851;
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.arrow-img {
+    width: 10px;
+    height: 5px;
+}
+
+.check-img {
+    width: 20px;
+}
+
+.pad-div {
+    padding-top: 10px;
+}
+
+.bio-section,
+.q1,
+.recruiting,
+.mobile,
+.website,
+.sales {
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.editorial,
+.q1,
+.recruiting,
+.mobile,
+.website,
+.sales {
+    font-size: 10px;
+    background-color: #47adf1;
+    vertical-align: top;
+    padding: 5px;
+    border-radius: 15px;
+    color: white;
+}
+
+.q1 {
+
+    background-color: #9c72e4;
+}
+
+.recruiting {
+
+    background-color: #64c0a9;
+}
+
+.mobile {
+    background-color: #f29e33;
+}
+
+.website {
+    background-color: #C55C94;
+}
+
+.sales {
+    background-color: #91A424;
+}
